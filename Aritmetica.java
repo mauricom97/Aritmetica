@@ -32,6 +32,15 @@ public class Aritmetica {
 
 				//Divisao
 				divi = n1 / n2;
+				
+				//Pegando maior
+				if(n1 > n2){
+					System.out.printf("Maior numero: %d\n", n1);
+				}else if(n1 < n2){
+					System.out.printf("Maior numero: %d\n", n2);
+				}else{
+					System.out.printf("Numeros iguais %d\n", n2);
+				}
 
                 // Imprimir a soma
                 System.out.printf("Soma: %d\n", soma);
