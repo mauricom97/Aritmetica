@@ -42,6 +42,13 @@ public class Aritmetica {
 					System.out.printf("Numeros iguais %d\n", n2);
 				}
 
+
+				if( n1 % n2 == 0){
+					System.out.printf("n1 é multiplo de n2");
+				}else{
+					System.out.printf("n1 nãe é multiplo de n2");
+				}
+
                 // Imprimir a soma
                 System.out.printf("Soma: %d\n", soma);
 
@@ -51,6 +58,6 @@ public class Aritmetica {
 
 				System.out.printf("Divisão: %f\n", divi);
 
-
+        
             }
         }
